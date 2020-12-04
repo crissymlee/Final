@@ -3,11 +3,11 @@
 
 
 
-George Sapp 
-Stephen Min
-Shahzad Ansari
-Joshua Florence
-Christina Lee
+* George Sapp 
+* Stephen Min
+* Shahzad Ansari
+* Joshua Florence
+* Christina Lee
 
 ## The Project
 
