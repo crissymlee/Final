@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Shortest Path between two network points">
   <meta name="author" content="Smells Like Team Spirit">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>The Shortest Path</title>
 
@@ -46,46 +49,45 @@
                       <img id="AT&T Logo" class="figure-img img-fluid rounded" src='https://techcrunch.com/wp-content/uploads/2019/08/logo_att_share.png?w=1390&crop=1' />
                     </div>
                 </div>
-
-              <!-- column -->
             </div>
           </div>
         </div>
+      </div>
       </div>
         
         
 
 
         <!-- This Section Is Used to Select Your Starting Point-->
-        <div class="container-fluid"></div>
-        <h2 style="background-color: rgb(76, 74, 85);">Which city would you like to start with?</h2>
+        <div class="container-fluid rounded"></div>
+        <h2 style="background-color: rgb(76, 74, 85)">Which city would you like to start with?</h2>
         
         <button class="btn btn-primary dropdown-toggle mr-4" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="padding: 20px 50px 20px;">Starting Point</button>
 
         <div class="dropdown-menu">
-          <a class="dropdown-item">"NewYorkCity" : 0 </a>
-          <a class="dropdown-item">"Cambridge" : 1 </a>
-          <a class="dropdown-item">"Chicago" : 2 </a>
-          <a class="dropdown-item">"Cleveland" : 3 </a>
-          <a class="dropdown-item">"Raleigh" : 4 </a>
-          <a class="dropdown-item">"Atlanta" : 5</a>
-          <a class="dropdown-item">"WashingtonDC" : 7  </a>
-          <a class="dropdown-item">"Nashville" : 8 </a>
-          <a class="dropdown-item">"SaintLouis" : 9 </a>
-          <a class="dropdown-item">"NewOrleans" : 10 </a>
-          <a class="dropdown-item">"Houston" : 11 </a>
-          <a class="dropdown-item">"SanAntonio" : 12 </a>
-          <a class="dropdown-item">"Dallas" : 13 </a>
-          <a class="dropdown-item">"Orlando" : 14 </a>
-          <a class="dropdown-item">"Denver" : 15</a>
-          <a class="dropdown-item">"KansasCity" : 16 </a>
-          <a class="dropdown-item">"SanFrancisco" : 17</a>
-          <a class="dropdown-item">"Sacramento" : 18</a>
-          <a class="dropdown-item">"Portland" : 19</a>
-          <a class="dropdown-item">"Seattle" : 20</a>
-          <a class="dropdown-item">"SaltLakeCity" : 21</a>
-          <a class="dropdown-item">"LosAngeles" : 22</a>
-          <a class="dropdown-item">"SanDiego" : 23</a>
+          <a class="dropdown-item" type="button">"NewYorkCity" : 0 </a>
+          <a class="dropdown-item" type="button">"Cambridge" : 1 </a>
+          <a class="dropdown-item" type="button">"Chicago" : 2 </a>
+          <a class="dropdown-item" type="button">"Cleveland" : 3 </a>
+          <a class="dropdown-item" type="button">"Raleigh" : 4 </a>
+          <a class="dropdown-item" type="button">"Atlanta" : 5</a>
+          <a class="dropdown-item" type="button">"WashingtonDC" : 7  </a>
+          <a class="dropdown-item" type="button">"Nashville" : 8 </a>
+          <a class="dropdown-item" type="button">"SaintLouis" : 9 </a>
+          <a class="dropdown-item" type="button">"NewOrleans" : 10 </a>
+          <a class="dropdown-item" type="button">"Houston" : 11 </a>
+          <a class="dropdown-item" type="button">"SanAntonio" : 12 </a>
+          <a class="dropdown-item" type="button">"Dallas" : 13 </a>
+          <a class="dropdown-item" type="button">"Orlando" : 14 </a>
+          <a class="dropdown-item" type="button">"Denver" : 15</a>
+          <a class="dropdown-item" type="button">"KansasCity" : 16 </a>
+          <a class="dropdown-item" type="button">"SanFrancisco" : 17</a>
+          <a class="dropdown-item" type="button">"Sacramento" : 18</a>
+          <a class="dropdown-item" type="button">"Portland" : 19</a>
+          <a class="dropdown-item" type="button">"Seattle" : 20</a>
+          <a class="dropdown-item" type="button">"SaltLakeCity" : 21</a>
+          <a class="dropdown-item" type="button">"LosAngeles" : 22</a>
+          <a class="dropdown-item" type="button">"SanDiego" : 23</a>
         </div>
         <hr>
         <script>
@@ -111,36 +113,39 @@
           }
         }
         </script>
+
+
+
+
         <!-- This Section Is Used to Select Your End Point-->
         <h2 style="background-color: rgb(76, 74, 85);">Which city are you ending at?</h2>
-        
-  <!-- Basic dropdown -->
-  <button class="btn btn-primary dropdown-toggle mr-4" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="padding: 20px 50px 20px;">Ending Point</button>
+          <!-- Basic dropdown -->
+          <button class="btn btn-secondary dropdown-toggle mr-4" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="padding: 20px 50px 20px;">Ending Point</button>
 
-  <div class="dropdown-menu">
-    <a class="dropdown-item">"NewYorkCity" : 0 </a>
-    <a class="dropdown-item">"Cambridge" : 1 </a>
-    <a class="dropdown-item">"Chicago" : 2 </a>
-    <a class="dropdown-item">"Cleveland" : 3 </a>
-    <a class="dropdown-item">"Raleigh" : 4 </a>
-    <a class="dropdown-item">"Atlanta" : 5</a>
-    <a class="dropdown-item">"WashingtonDC" : 7  </a>
-    <a class="dropdown-item">"Nashville" : 8 </a>
-    <a class="dropdown-item">"SaintLouis" : 9 </a>
-    <a class="dropdown-item">"NewOrleans" : 10 </a>
-    <a class="dropdown-item">"Houston" : 11 </a>
-    <a class="dropdown-item">"SanAntonio" : 12 </a>
-    <a class="dropdown-item">"Dallas" : 13 </a>
-    <a class="dropdown-item">"Orlando" : 14 </a>
-    <a class="dropdown-item">"Denver" : 15</a>
-    <a class="dropdown-item">"KansasCity" : 16 </a>
-    <a class="dropdown-item">"SanFrancisco" : 17</a>
-    <a class="dropdown-item">"Sacramento" : 18</a>
-    <a class="dropdown-item">"Portland" : 19</a>
-    <a class="dropdown-item">"Seattle" : 20</a>
-    <a class="dropdown-item">"SaltLakeCity" : 21</a>
-    <a class="dropdown-item">"LosAngeles" : 22</a>
-    <a class="dropdown-item">"SanDiego" : 23</a>
+            <div class="dropdown-menu">
+              <button class="dropdown-item" type="button">"NewYorkCity" : 0 </button>
+              <button class="dropdown-item" type="button">"Cambridge" : 1 </button>
+              <button class="dropdown-item" type="button">"Chicago" : 2 </button>
+              <button class="dropdown-item" type="button">"Cleveland" : 3 </button>
+              <button class="dropdown-item" type="button">"Raleigh" : 4 </button>
+              <button class="dropdown-item" type="button">"Atlanta" : 5</button>
+              <button class="dropdown-item" type="button">"WashingtonDC" : 7  </button>
+              <button class="dropdown-item" type="button">"Nashville" : 8 </button>
+              <button class="dropdown-item" type="button">"SaintLouis" : 9 </button>
+              <button class="dropdown-item" type="button">"NewOrleans" : 10 </button>
+              <button class="dropdown-item" type="button">"Houston" : 11 </button>
+              <button class="dropdown-item" type="button">"SanAntonio" : 12 </button>
+              <button class="dropdown-item" type="button">"Dallas" : 13 </button>
+              <button class="dropdown-item" type="button">"Orlando" : 14 </button>
+              <button class="dropdown-item" type="button">"Denver" : 15</button>
+              <button class="dropdown-item" type="button">"KansasCity" : 16 </button>
+              <button class="dropdown-item" type="button">"SanFrancisco" : 17</button>
+              <button class="dropdown-item" type="button">"Sacramento" : 18</button>
+             <button class="dropdown-item" type="button">"Portland" : 19</button>
+             <button class="dropdown-item" type="button">"Seattle" : 20</button>
+             <button class="dropdown-item" type="button">"SaltLakeCity" : 21</button>
+             <button class="dropdown-item" type="button">"LosAngeles" : 22</button>
+              <button class="dropdown-item" type="button">"SanDiego" : 23</button>
   </div>
         <script>
         /* When the user clicks on the button,
@@ -165,6 +170,8 @@
           }
         }
         </script>
+        
+
                   </div>
                 </div>
               </div>
@@ -175,6 +182,9 @@
         <hr>
   </header>
 
+  <p>.</p>
+  <p>.</p>
+<p>.</p>
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">
     <div class="container">
@@ -208,6 +218,9 @@
         </div>
       </div>
     </div>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
   </section>
   <hr>
 
