@@ -33,11 +33,12 @@ def graphData(input1, input2):
     #Running the network node postions in the ml to find the shortest path and saving the image as a svg
     path = shortest_path(adjacency, sources = starting, targets = ending)
     edge_labels = [(path[k], path[k + 1], 0) for k in range(len(path) - 1)]
-    image = svg_digraph(adjacency, position, names, edge_labels = edge_labels, edge_width = 3, scale = 2, filename = "static/networkGraph")
+    image = svg_digraph(adjacency, position, names, edge_labels = edge_labels, edge_width = 3, scale = 2, filename = "images/networkGraph")
     SVG(image)
 
+
     #Converting the svg to png and saving it
-    images = svg2rlg("static/networkGraph.svg")
+    images = svg2rlg("images/networkGraph.svg")
     renderPM.drawToFile(images, "static/networkGraph.png", fmt="PNG")
     return SVG(image)
 

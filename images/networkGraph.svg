@@ -2,8 +2,6 @@
 <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" >
 <path d="M0,0 L0,6 L9,3 z" fill="gray"/></marker></defs>
 <path stroke-width="3" stroke="gray" d="M 795 256 836 209" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 43 349 435 504" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 43 349 577 222" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 475 307 49 349" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 475 307 320 287" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 475 307 442 500" marker-end="url(#arrow)"/>
@@ -13,8 +11,9 @@
 <path stroke-width="3" stroke="gray" d="M 314 287 49 348" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 314 287 469 307" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 314 287 438 500" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 43 349 308 288" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 314 287 577 222" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 680 640 469 602" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 680 640 551 597" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 680 640 634 482" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 441 506 114 466" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 441 506 49 351" marker-end="url(#arrow)"/>
@@ -26,10 +25,10 @@
 <path stroke-width="3" stroke="gray" d="M 441 506 540 328" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 441 506 591 402" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 441 506 627 477" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 680 640 551 597" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 415 612 209 488" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 43 349 577 222" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 43 349 435 504" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 43 349 308 288" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 43 349 469 307" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 43 349 40 111" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 204 485 410 609" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 125 508 198 486" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 125 508 110 472" marker-end="url(#arrow)"/>
@@ -41,19 +40,19 @@
 <path stroke-width="3" stroke="gray" d="M 108 466 537 324" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 207 255 110 460" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 207 255 64 321" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 43 349 55 329" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 415 612 209 488" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 207 255 49 346" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 207 255 577 221" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 45 40 40 99" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 45 40 43 343" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 45 40 577 219" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 40 105 45 46" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 40 105 43 343" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 58 323 201 257" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 58 323 46 343" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 43 349 105 460" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 43 349 201 258" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 43 349 45 46" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 43 349 40 111" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 43 349 55 329" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 207 255 308 285" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 204 485 114 467" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 415 612 440 512" marker-end="url(#arrow)"/>
@@ -69,7 +68,7 @@
 <path stroke-width="3" stroke="gray" d="M 675 232 771 277" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 675 232 589 221" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 583 221 213 255" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 633 476 447 505" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 415 612 457 602" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 583 221 51 42" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 583 221 480 303" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 583 221 320 286" marker-end="url(#arrow)"/>
@@ -84,7 +83,7 @@
 <path stroke-width="3" stroke="gray" d="M 795 256 589 222" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 583 221 49 348" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 633 476 679 634" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 777 280 791 261" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 633 476 447 505" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 777 280 836 209" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 463 601 442 512" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 463 601 421 611" marker-end="url(#arrow)"/>
@@ -98,9 +97,8 @@
 <path stroke-width="3" stroke="gray" d="M 543 322 593 394" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 543 322 630 470" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 543 322 670 235" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 204 485 131 507" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 777 280 791 261" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 543 322 581 227" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 596 399 446 503" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 596 399 546 327" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 596 399 630 470" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 596 399 673 238" marker-end="url(#arrow)"/>
@@ -111,8 +109,10 @@
 <path stroke-width="3" stroke="gray" d="M 777 280 751 309" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 777 280 681 235" marker-end="url(#arrow)"/>
 <path stroke-width="3" stroke="gray" d="M 777 280 589 223" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="gray" d="M 415 612 457 602" marker-end="url(#arrow)"/>
-<path stroke-width="3" stroke="blue" d="M 680 640 469 602" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 596 399 446 503" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="gray" d="M 204 485 131 507" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="blue" d="M 40 105 43 343" marker-end="url(#arrow)"/>
+<path stroke-width="3" stroke="blue" d="M 43 349 105 460" marker-end="url(#arrow)"/>
 <circle cx="795" cy="256" r="7.0" style="fill:gray;stroke:black;stroke-width:1.0"/>
 <circle cx="840" cy="204" r="7.0" style="fill:gray;stroke:black;stroke-width:1.0"/>
 <circle cx="583" cy="221" r="7.0" style="fill:gray;stroke:black;stroke-width:1.0"/>

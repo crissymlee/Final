@@ -9,7 +9,7 @@ def home():
     return render_template('index.html')
 
 
-@app.route('/data', methods=['POST'])
+@app.route('/data', methods=['POST', 'GET'])
 def data():
     input1 = request.form.get('input1')
     input2 = request.form.get('input2')
