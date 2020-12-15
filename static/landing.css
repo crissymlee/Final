@@ -21,11 +21,13 @@ header.masthead {
   background: url(https://docs.google.com/spreadsheets/d/1Mnpun9_PMnEXyN-ze-T4GSUvI6t1Zg6LqEeHgLbaTAo/edit?usp=sharing)
     no-repeat center center;
   background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 header.masthead .overlay {
   position: absolute;
   background-color: #212529;
-  height: 10%;
+  height: 100%;
   width: 100%;
   top: 0;
   left: 0;
@@ -71,6 +73,16 @@ header.masthead h1 {
 .features-icons .features-icons-item:hover .features-icons-icon i {
   font-size: 5rem;
 }
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0 5px 5px 0 #adb5bd;
 }
 .call-to-action {
   position: relative;
