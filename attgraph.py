@@ -23,10 +23,10 @@ def graphData(input1, input2):
     position = np.stack((lon, lat), axis=1)
 
     #Dictionary of all the network nodes
-    my_dict = {"NewYorkCity" : 0, "Cambridge" : 1, "Chicago" : 2, "Cleveland" : 3, "Raleigh" : 4, "Atlanta" : 5,
-               "Philadelphia" : 6, "WashingtonDC" : 7, "Nashville" : 8, "SaintLouis" : 9, "NewOrleans" : 10, "Houston" : 11,
-               "SanAntonio" : 12, "Dallas" : 13, "Orlando" : 14, "Denver" : 15, "KansasCity" : 16, "SanFrancisco" : 17,
-               "Sacramento" : 18, "Portland" : 19, "Seattle" : 20, "SaltLakeCity" : 21, "LosAngeles" : 22, "SanDiego" : 23, "Phoenix" : 24}
+    my_dict = {"New York City" : 0, "Cambridge" : 1, "Chicago" : 2, "Cleveland" : 3, "Raleigh" : 4, "Atlanta" : 5,
+               "Philadelphia" : 6, "Washington D.C." : 7, "Nashville" : 8, "Saint Louis" : 9, "New Orleans" : 10, "Houston" : 11,
+               "San Antonio" : 12, "Dallas" : 13, "Orlando" : 14, "Denver" : 15, "Kansas City" : 16, "San Francisco" : 17,
+               "Sacramento" : 18, "Portland" : 19, "Seattle" : 20, "Salt Lake City" : 21, "Los Angeles" : 22, "San Diego" : 23, "Phoenix" : 24}
 
     #Starting and Ending node points
     starting = my_dict.get(input1)
